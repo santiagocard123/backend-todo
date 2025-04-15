@@ -13,7 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/users")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "https://.vercel.app")
+@CrossOrigin(origins = "https://frontend-todo-gilt.vercel.app/")
 public class UserController {
 
     private final UserService userService;
